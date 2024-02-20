@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.MianDiv{
+    width: 800px;
+    margin: 0px auto;
+}
+.info{
+    width: 800px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:5px ;
+    padding-bottom:5px ;
+    justify-content: space-between;
+    background-color: aqua;
+    border: 3px solid rgb(24, 48, 48);
+}
+.Game{
+    width: 700;
+    background-color: #e6e6e6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Block{
+    width: 140px;
+    height: 140px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+.Block img{
+    width: 140px;
+    height: 140px;
+}
+.frontImage{
+    position: relative;
+    backface-visibility: hidden;
+    transition: transform 1s;
+}
+.frontImage::before{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: black;
+    content: "!";
+    font-size: 72px;
+    color: azure;
+    text-align: center;
+    line-height: 140px;
+}
+.flipped , .true{
+    transform: rotateY(180deg);
+}
+.no-clicking{
+    pointer-events: none;
+    
+}
+body{
+    position: relative;
+}
+.firstPage{
+    width: 60%;
+    height: 100%;
+    left: 20%;
+    z-index: 2;
+    background-color: aqua;
+    position: absolute;
+}
+.but{
+    padding: 20px;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
