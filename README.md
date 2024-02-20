@@ -4,12 +4,14 @@
 Memory Match Game is a web-based game designed using HTML, CSS, and JavaScript. It presents users with a grid of 20 images arranged in a 5x4 layout. Each image is repeated twice. The game begins with all images visible for 3 seconds, allowing players to memorize their positions. After this brief period, the images are flipped, and players must select pairs of images. Matching pairs earn rewards, while non-matching pairs incur penalties.
 
 ## Example Images
-![Memory Match Game](ImagesForReadmeFile/StartPage.png)
-![Memory Match Game](ImagesForReadmeFile/Name.png)
-![Memory Match Game](ImagesForReadmeFile/Images.png)
-![Memory Match Game](ImagesForReadmeFile/FlippedImages.png)
-![Memory Match Game](ImagesForReadmeFile/AfterStart.png)
-![Memory Match Game](ImagesForReadmeFile/Winning.png)
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <img src="ImagesForReadmeFile/StartPage.png" alt="Start Page" style="width: 200px; height: 150px; margin: 10px;">
+  <img src="ImagesForReadmeFile/Name.png" alt="Name Page" style="width: 200px; height: 150px; margin: 10px;">
+  <img src="ImagesForReadmeFile/Images.png" alt="Images Page" style="width: 200px; height: 150px; margin: 10px;">
+  <img src="ImagesForReadmeFile/FlippedImages.png" alt="Flipped Images" style="width: 200px; height: 150px; margin: 10px;">
+  <img src="ImagesForReadmeFile/AfterStart.png" alt="After Start" style="width: 200px; height: 150px; margin: 10px;">
+  <img src="ImagesForReadmeFile/Winning.png" alt="Winning Page" style="width: 200px; height: 150px; margin: 10px;">
+</div>
 
 
 
